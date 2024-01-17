@@ -1,0 +1,38 @@
+.fontendLayout {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px auto auto auto;
+  grid-template-areas:
+    "navbar"
+    "body"
+    "newsletter"
+    "footer";
+    
+    color: white;
+}
+
+.navbar {
+  grid-area: navbar;
+  background: rgb(0, 183, 255);
+  min-height: 60px;
+}
+
+.body {
+  grid-area: body;
+  background: rgb(0, 255, 0);
+  min-height: 800px;
+}
+
+.newsletter {
+  grid-area: newsletter;
+  background: rgb(29, 25, 83);
+  min-height: 300px;
+}
+
+.footer {
+  grid-area: footer;
+  min-height: 100px;
+  background: rgb(0, 0, 0);
+}

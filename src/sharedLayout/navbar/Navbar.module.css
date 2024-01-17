@@ -1,0 +1,44 @@
+* {
+  font-size: 16px;
+}
+
+ul,
+ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  list-style: none;
+}
+
+.navbar_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar_container .nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.navbar_container ul li {
+  padding: 0rem 1rem;
+}
+
+.linkListItem {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.linkListItem:hover {
+  opacity: 1;
+}
+
+.nav_menu.deactive {
+  display: none;
+}
