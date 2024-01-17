@@ -13,7 +13,7 @@ const Routerconfig = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="reactgithub2024/" element={<FontendLayout />}>
+        <Route path="/" element={<FontendLayout />}>
           <Route index element={<HomeRoute />} />
           <Route path="/about" element={<AboutRoute />} />
           <Route path="/evelopment" element={<DevelopmentRoute />} />
