@@ -34,5 +34,5 @@
 .footer {
   grid-area: footer;
   min-height: 100px;
-  background: rgb(0, 0, 0);
+  background: rgb(89, 157, 221);
 }
