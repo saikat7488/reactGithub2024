@@ -11,7 +11,6 @@ import NotFoundRoute from "../pages/errorRoute/NotFound_Route";
 
 const Routerconfig = () => {
   return (
-
       <Routes>
         <Route path="/" element={<FontendLayout />}>
           <Route index element={<HomeRoute />} />
@@ -22,7 +21,6 @@ const Routerconfig = () => {
         </Route>
         <Route path="*" element={<NotFoundRoute />} />
       </Routes>
-
   );
 };
 
