@@ -19,8 +19,8 @@ const Routerconfig = () => {
           <Route path="development" element={<DevelopmentRoute />} />
           <Route path="service" element={<ServiceRoute />} />
           <Route path="contact" element={<ContactRoute />} />
-          <Route path="*" element={<NotFoundRoute />} />
         </Route>
+        <Route path="*" element={<NotFoundRoute />} />
       </Routes>
 
   );
