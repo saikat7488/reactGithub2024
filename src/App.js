@@ -4,7 +4,7 @@ import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routerconfig />
     </HashRouter>
   );
